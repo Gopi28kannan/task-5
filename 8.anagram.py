@@ -1,0 +1,10 @@
+print('enter dusty and  study')
+a=[];b=[]
+st1=input("enter the first word       :  ")
+st2=input("enter the second word  : ")
+for i in st1:  a.append(i)
+for i in st2:  b.append(i)
+a=set(a)
+b=set(b)
+if a==b:  print("                                       its anagram")
+else:  print("                                       its not anagram")
